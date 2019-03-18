@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+         <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+         <meta charset="utf-8">
+        <!-- Include JQuery Library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script type="text/javascript">
+        	function parseGeoJSON() {
+                $.getJSON('limite_municipal.json', function(data) {
+                    $.each(data.features, function(key, val) {
+                        polygon(val.geometry);
+                    });
+                });
+            }
+
+            function polygon(geom) {
+            	var pointCount = geom.rings[0].length;
+                for (var i=0; i < pointCount; i++) {
+                    console.log(geom.rings[0][i][1]);
+                    console.log(geom.rings[0][i][0]);
+              	}
+            }
+              parseGeoJSON();
+        </script>
+	<title></title>
+</head>
+<body>
+</body>
+</html>

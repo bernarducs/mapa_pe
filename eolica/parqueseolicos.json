@@ -1,0 +1,552 @@
+{
+ "displayFieldName": "nome",
+ "fieldAliases": {
+  "nome": "Nome"
+ },
+ "geometryType": "esriGeometryPoint",
+ "spatialReference": {
+  "wkid": 4674,
+  "latestWkid": 4674
+ },
+ "fields": [
+  {
+   "name": "nome",
+   "type": "esriFieldTypeString",
+   "alias": "Nome",
+   "length": 254
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "nome": "Ventos de Santo Estevão IV"
+   },
+   "geometry": {
+    "x": -40.632485155999973,
+    "y": -7.7900378759999853
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de Santo Estevão II"
+   },
+   "geometry": {
+    "x": -40.663071645999992,
+    "y": -7.7534680520000165
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Serra das Vacas VII"
+   },
+   "geometry": {
+    "x": -36.706357690000004,
+    "y": -8.899720823999985
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Gravatá Fruitrade"
+   },
+   "geometry": {
+    "x": -35.596404961000019,
+    "y": -8.2681607669999835
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Pirauá"
+   },
+   "geometry": {
+    "x": -35.495521322999991,
+    "y": -7.4953345810000087
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de Santo Estevão I"
+   },
+   "geometry": {
+    "x": -40.673850988000027,
+    "y": -7.7436654640000029
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de São Clemente 1"
+   },
+   "geometry": {
+    "x": -36.699932675000014,
+    "y": -8.7263196669999843
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de São Clemente 2"
+   },
+   "geometry": {
+    "x": -36.733656482000015,
+    "y": -8.7093044200000236
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de São Clemente 3"
+   },
+   "geometry": {
+    "x": -36.716231597999979,
+    "y": -8.7125894970000104
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de São Clemente 5"
+   },
+   "geometry": {
+    "x": -36.756570816000021,
+    "y": -8.7799320650000254
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de São Clemente 6"
+   },
+   "geometry": {
+    "x": -36.712447757000007,
+    "y": -8.7610571920000098
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ouro Branco 1"
+   },
+   "geometry": {
+    "x": -36.745032700000024,
+    "y": -8.1785495519999927
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ouro Branco 2"
+   },
+   "geometry": {
+    "x": -36.727786451999975,
+    "y": -8.1843777939999995
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de Santo Estevão III"
+   },
+   "geometry": {
+    "x": -40.638960266000026,
+    "y": -7.7262775080000097
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de Santo Estevão V"
+   },
+   "geometry": {
+    "x": -40.608716618000017,
+    "y": -7.7629038989999799
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de São Clemente 8"
+   },
+   "geometry": {
+    "x": -36.698161749000008,
+    "y": -8.6965460700000108
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de São Clemente 4"
+   },
+   "geometry": {
+    "x": -36.762641852999991,
+    "y": -8.7035468160000278
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de São Clemente 7"
+   },
+   "geometry": {
+    "x": -36.725568285999998,
+    "y": -8.7458615410000107
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Quatro Ventos"
+   },
+   "geometry": {
+    "x": -35.489722730999972,
+    "y": -7.4827771029999894
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Serra das Vacas V"
+   },
+   "geometry": {
+    "x": -36.777472977999992,
+    "y": -8.9184735260000139
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Caminho da Praia"
+   },
+   "geometry": {
+    "x": -35.005296156999975,
+    "y": -8.334378748000006
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Eólica Olinda"
+   },
+   "geometry": {
+    "x": -34.861111111000014,
+    "y": -8.0283333329999778
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de Santo Estevão III"
+   },
+   "geometry": {
+    "x": -40.658409457999994,
+    "y": -7.7283296580000069
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de Santo Estevão II"
+   },
+   "geometry": {
+    "x": -40.629634280000005,
+    "y": -7.7481735960000151
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de Santo Estevão I"
+   },
+   "geometry": {
+    "x": -40.620813213000019,
+    "y": -7.7441874730000109
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de Santo Estevão V"
+   },
+   "geometry": {
+    "x": -40.673321455999996,
+    "y": -7.7598766190000106
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de Santo Estevão IV"
+   },
+   "geometry": {
+    "x": -40.594145493999974,
+    "y": -7.7265977609999936
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Bom Conselho I"
+   },
+   "geometry": {
+    "x": -36.739702138999974,
+    "y": -9.0860606960000041
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Bom Conselho II"
+   },
+   "geometry": {
+    "x": -36.731124459,
+    "y": -9.1268332610000016
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Bom Conselho III"
+   },
+   "geometry": {
+    "x": -36.765594559000021,
+    "y": -9.1658670400000233
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ouro Branco 3"
+   },
+   "geometry": {
+    "x": -36.729882746999976,
+    "y": -8.2013537079999992
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Saloá I"
+   },
+   "geometry": {
+    "x": -36.78086087600002,
+    "y": -8.9982685780000224
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Saloá II"
+   },
+   "geometry": {
+    "x": -36.790963749000014,
+    "y": -9.0218388459999801
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Serra das Vacas VI"
+   },
+   "geometry": {
+    "x": -36.708151510999983,
+    "y": -8.8670045119999941
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Serra dos Ventos II"
+   },
+   "geometry": {
+    "x": -36.784734055000001,
+    "y": -8.9232260360000168
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de Santa Edith 03"
+   },
+   "geometry": {
+    "x": -36.727948744999992,
+    "y": -8.6221038450000265
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de Santa Edith 04"
+   },
+   "geometry": {
+    "x": -36.718541302000006,
+    "y": -8.6339696580000123
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de Santa Edith 05"
+   },
+   "geometry": {
+    "x": -36.700908253000023,
+    "y": -8.6646847690000186
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de Santa Edith 06"
+   },
+   "geometry": {
+    "x": -36.701344586999994,
+    "y": -8.6376810660000274
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de Santo Anselmo"
+   },
+   "geometry": {
+    "x": -40.521206774000007,
+    "y": -8.0044339489999743
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de Santo Antero"
+   },
+   "geometry": {
+    "x": -40.547722098000008,
+    "y": -8.0091187649999824
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de São Bernardo"
+   },
+   "geometry": {
+    "x": -40.508624882999982,
+    "y": -7.9897046570000043
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Pau Ferro"
+   },
+   "geometry": {
+    "x": -38.118579865000015,
+    "y": -9.0624818800000071
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Pedra do Gerônimo"
+   },
+   "geometry": {
+    "x": -38.144783019999977,
+    "y": -9.067193030999988
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Tacaicó"
+   },
+   "geometry": {
+    "x": -38.056014504000018,
+    "y": -9.0187368919999926
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Mandacaru"
+   },
+   "geometry": {
+    "x": -35.596375990000013,
+    "y": -8.2789980819999869
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Serra das Vacas I"
+   },
+   "geometry": {
+    "x": -36.747708229000011,
+    "y": -8.9113339269999869
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Serra das Vacas II"
+   },
+   "geometry": {
+    "x": -36.725701656000012,
+    "y": -8.8951899880000269
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Serra das Vacas III"
+   },
+   "geometry": {
+    "x": -36.75792469999999,
+    "y": -8.9030809920000138
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Serra das Vacas IV"
+   },
+   "geometry": {
+    "x": -36.729573002999985,
+    "y": -8.9138099979999765
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de Santa Brígida IV"
+   },
+   "geometry": {
+    "x": -36.760183122000001,
+    "y": -8.8337765850000096
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de Santa Brígida II"
+   },
+   "geometry": {
+    "x": -36.733769384000027,
+    "y": -8.7969044309999731
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de Santa Brígida III"
+   },
+   "geometry": {
+    "x": -36.769663073999993,
+    "y": -8.8450857270000256
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de Santa Brígida VI"
+   },
+   "geometry": {
+    "x": -36.747064369999975,
+    "y": -8.8680619410000077
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de Santa Brígida V"
+   },
+   "geometry": {
+    "x": -36.73023703299998,
+    "y": -8.8464924130000213
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de Santa Brígida I"
+   },
+   "geometry": {
+    "x": -36.74873861399999,
+    "y": -8.8098831080000082
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Ventos de Santa Brígida VII"
+   },
+   "geometry": {
+    "x": -36.75791783599999,
+    "y": -8.8025475150000148
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Santa Maria"
+   },
+   "geometry": {
+    "x": -35.595566354000027,
+    "y": -8.294679355000028
+   }
+  },
+  {
+   "attributes": {
+    "nome": "Xavante"
+   },
+   "geometry": {
+    "x": -35.388888867999981,
+    "y": -8.1749999219999836
+   }
+  }
+ ]
+}
