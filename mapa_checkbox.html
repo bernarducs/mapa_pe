@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+         <meta charset="utf-8">
+        
+        <style type="text/css">
+              #mapDiv { 
+                height: 80%; 
+              }
+              .tocControl {padding:10px; border-style:solid; border-color:grey; border-width:3px; background-color:rgb(220,220,220); }
+              .tocLabel {font-size:14px; margin-bottom:10px; display:block;}
+              html, body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+              }
+        </style>
+        <!-- Criação do mapa começa aqui -->
+        <script type="text/javascript" src="rodovias_brs.js"></script>
+        <script type="text/javascript" src="area_municipal.js"></script>
+        <script type="text/javascript" src="parques_eolicos.js"></script>
+        <script type="text/javascript" src="checkbox_eolicos.js"></script>
+        <script type="text/javascript">
+
+              //Definindo map como variavel global a ser utilizada por varias funcoes
+              var map;  
+
+              function initMap() {
+                    //Enabling new cartography and themes
+                    google.maps.visualRefresh = true;
+
+                    //Configuracoes iniciais do mapa
+                    var mapOptions = {
+                          center: new google.maps.LatLng(-8.3507444,-37.8197873),
+                          zoom: 8,
+                          mapTypeId: google.maps.MapTypeId.ROADMAP
+                    };
+
+                    //Apanha a div onde ficará o mapa
+                    var mapElement = document.getElementById('mapDiv');
+
+                    //Cria o mapa na div, utilizando as configuracoes iniciais
+                    map = new google.maps.Map(mapElement, mapOptions);
+
+                    //Cria uma div para ser usado pelo controle de camadas
+                    var tableOfContentsControlDiv = document.createElement('div');
+                    
+                    //Instancia o controle
+                    var tableOfContentsControl = new TableOfContentsControl(tableOfContentsControlDiv, map);
+                    
+                    //Posiciona o controle no top right do mapa
+                    map.controls[google.maps.ControlPosition.TOP_RIGHT].push(tableOfContentsControlDiv);
+              }
+
+              function TableOfContentsControl(tocControlDiv, map)
+              {
+                //necessary as 'this' will be out of scope in event listeners for the
+                //checkbox buttons
+                var tocControl = this;
+                
+                //Define uma css class para a div
+                tocControlDiv.className = 'tocControl';
+                    
+                //Cria um rótulo para o controle
+                var tocLabel = document.createElement('label');
+                tocLabel.className = 'tocLabel';
+                tocLabel.appendChild(document.createTextNode('Camadas'));
+                
+                //Joga o rótulo na div
+                tocControlDiv.appendChild(tocLabel);
+                             
+                CheckboxPqsEolicos(tocControlDiv, tocControl);
+              }
+
+        </script>
+    </head>
+    <body>
+        <b>Chapter 3 - Adding GeoJSON to Map</b><br/>
+        <div id="mapDiv"></div>
+        <!-- Include JQuery Library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Include Google Maps JS API -->
+        <script async defer
+          src="https://maps.googleapis.com/maps/api/js?callback=initMap">
+        </script>
+    </body>
+</html>

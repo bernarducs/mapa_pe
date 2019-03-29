@@ -3,12 +3,7 @@
     <head>
          <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
          <meta charset="utf-8">
-        <!-- Include JQuery Library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <!-- Include Google Maps JS API -->
-        <script type="text/javascript"
-          src="https://maps.googleapis.com/maps/api/js?">
-        </script>
+        
         <style type="text/css">
               #mapDiv { 
                 height: 100%; 
@@ -23,6 +18,25 @@
         <script type="text/javascript">
               //Defining map as a global variable to access from other functions
               var map;  
+
+              function line(geom) {
+                  var pointCount = geom.paths[0].length;
+                  var linePath = [];
+                  for (var i=0; i < pointCount; i++) {
+                      var tempLatLng = new google.maps.LatLng(geom.paths[0][i][1], geom.paths[0][i][0]);
+                      linePath.push(tempLatLng);
+                  }
+
+                  var lineOptions = {
+                      path: linePath,
+                      strokeWeight: 2,
+                      strokeColor: '#19A3FF',
+                      strokeOpacity: 0.8,
+                      map: map
+                  };
+                  var polyline = new google.maps.Polyline(lineOptions);
+              }
+
 
               function point(geom) {
                   var coordinate = new google.maps.LatLng(geom.geometry.y, geom.geometry.x);
@@ -70,6 +84,14 @@
                   });
               }
 
+              function parseBrsJSON() {
+                  $.getJSON('vias/br/brs.json', function(data) {
+                      $.each(data.features, function(key, val) {
+                          line(val.geometry);
+                      });
+                  });
+              }
+
               function initMap() {
                     //Enabling new cartography and themes
                     google.maps.visualRefresh = true;
@@ -89,6 +111,7 @@
 
                     parseAreaMunicipalJSON();
                     parseParquesEolicosJSON();
+                    parseBrsJSON();
               }
 
               google.maps.event.addDomListener(window, 'load', initMap);
@@ -97,5 +120,11 @@
     <body>
         <b>Chapter 3 - Adding GeoJSON to Map</b><br/>
         <div id="mapDiv"></div>
+        <!-- Include JQuery Library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Include Google Maps JS API -->
+        <script async defer
+          src="https://maps.googleapis.com/maps/api/js?callback=initMap">
+        </script>
     </body>
 </html>
